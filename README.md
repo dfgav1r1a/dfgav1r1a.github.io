@@ -1,6 +1,6 @@
 # Daniel Gaviria's Portfolio
 
-### https://dfgav1r1a.github.io/dgportfolio.html
+### https://dfgav1r1a.github.io/
 
 Thank you for being interested in my portfolio, here you will find the projects that I have been working on since I started coding. Several of the projects come from the **MITxPro Full Stack Development** program that I started attending in Winter 2022. I started coding full time recently. These projects are still a work in progress, this portfolio and its projects will be updated as I gain more experience and proficiency in JavaScript, HTML and CSS, the programming languages on which the MITxPro Full Stack Development program is based.
 
