@@ -60,13 +60,15 @@ img {
 .projects {
         grid-area: projects;
         width: 100%;
-        margin-top: 2em
+        margin-top: 2em;
+        text-align: center;
 }
 
-.footer {
-        table-layout:auto;
+.card {
+        margin:auto;
         width: 50%
 }
+
 
 /*making grid responsive for phone-tablet*/
 @media only screen and (max-width: 889px){
