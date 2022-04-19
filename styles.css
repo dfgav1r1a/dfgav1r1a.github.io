@@ -14,15 +14,15 @@ body {
         grid-template-columns: repeat(2, 1fr); 
         grid-template-rows: 1fr 1fr 1fr;  
         grid-template-areas: 
-                        "videos videos"
+                        "intro-video intro-video"
                         "headshot intro"
-                        "projects projects";   
+                        "bio bio";   
         gap: 5px;
 }
 
 /*making the YT embed responsive*/
-.videos {
-         grid-area: videos; 
+.intro-video {
+         grid-area: intro-video; 
          margin-top: 2em;
          overflow: hidden;
 }
@@ -57,11 +57,12 @@ img {
         padding: 40px;
 }
 
-.projects {
-        grid-area: projects;
+.bio {
+        grid-area: bio;
         width: 100%;
         margin-top: 2em;
-        text-align: center;
+        padding: 3em;
+        text-align: left;
 }
 
 .card {
@@ -76,9 +77,9 @@ img {
                 grid-template-columns: 1fr;
                 grid-template-rows: repeat(4, 1fr);
                 grid-template-areas: 
-                        "videos"
+                        "intro-video"
                         "headshot"
                         "intro"
-                        "projects";
+                        "bio";
         }
 }
