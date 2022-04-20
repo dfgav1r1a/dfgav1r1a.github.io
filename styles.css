@@ -60,7 +60,6 @@ img {
 .bio {
         grid-area: bio;
         width: 100%;
-        margin-top: 2em;
         padding: 3em;
         text-align: left;
 }
