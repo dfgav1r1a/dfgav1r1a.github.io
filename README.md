@@ -6,7 +6,7 @@ Thank you for being interested in my portfolio, here you will find the projects 
 
 ## Description
 
-On this specific repo you will find a table were I list the projects that I am currently developing. At the left column you will find the licensed projects from the **MITxPro Full Stack Development** program which are JavaScript based. At the left column are my own coding projects. Feel free to navigate to any of the links, they will take you directly to the source code of the repos.
+On this specific repository you will find information about me, my experience as web developer and programmer, a page where I  feature the projects that I am currently developing and my contact information. Within the project dropdown you can access the licensed projects from the **MITxPro Full Stack Development** program which are JavaScript based and, additional projects that I will be developing as I gain more experience and proficiency as a programmer. You will have access to the GitHub repositories that host the source code of each of the projects.
 
 ## License
-The licenses for each of the projects will be described in each repo.
+The licenses for each of the projects will be described in each repository.

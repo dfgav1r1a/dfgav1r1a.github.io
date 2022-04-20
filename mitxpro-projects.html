@@ -8,11 +8,11 @@
     <header-component></header-component>
     
      <!--Importing CSS files and Boostrap-->
-     <link rel="stylesheet" href="styles.css"> 
+     <link rel="stylesheet" href="./styles.css"> 
      <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
      <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css">
      
-     <!--adding reusable nav/footer-->
+     <!--adding reusable header nav/footer-->
      <script src="components/header/header.js" type="text/javascript" defer></script>
      <script src="components/nav/nav.js" type="text/javascript" defer></script>
      <script src="components/footer/footer.js" type="text/javascript" defer></script> 
@@ -23,53 +23,48 @@
     <nav-component></nav-component>
    
     <!--MIT project display-->
-    <div class="projects"><h3>MIT xPro Projects</h3>
-        <!--cards-->
-        <div class="card text-center">
-  
-          <div class="card-header bg-dark">
-            <ul class="nav nav-tabs card-header-tabs" id="Tab" role="tablist">
-              <li class="nav-item" role="presentation">
-                <button class="nav-link active" id="pacman-tab" data-bs-toggle="tab" data-bs-target="#pacman" type="button" role="tab" aria-controls="pacman" aria-selected="true">PacMan Exercise</button>              
-              </li>
-              <li class="nav-item" role="presentation">
-                <button class="nav-link active" id="eyes-tab" data-bs-toggle="tab" data-bs-target="#eyes" type="button" role="tab" aria-controls="eyes" aria-selected="false">Eyes Exercise</button>              
-              </li>
-              <li class="nav-item" role="presentation">
-                <button class="nav-link active" id="bus-tab" data-bs-toggle="tab" data-bs-target="#bus" type="button" role="tab" aria-controls="bus" aria-selected="false">Bus Tracker</button>
-              </li>
-            </ul>
-          </div>
-          <div class="tab-content" id="TabContent">
-            <div class="tab-pane fade show active" id="pacman" role="tabpanel" aria-labelledby="pacman-tab">
-              <div class="card-body">
-                <img src="..." class="card-img-top" alt="Image of PacMan Exercise">
-                <h5 class="card-title">PacMan Exercise</h5>
-                <p class="card-text">Simple PacMan generator click <a href="#">here</a> to go to the repository or click below to go to the deployment page. </p>
-                <a href="#" class="btn btn-primary">Play</a>
+    <div class="projects" style="text-align: center; margin-top: 2em;"><h3 style="margin-bottom: 1em;">MIT xPro Projects</h3>
+        <!--cards-->                
+          <div class="row row-cols-1 row-cols-sm-3 g-4">
+            <div class="col">
+              <div class="card text-center h-100 w-100">
+                <img src="./images/pacmen.png" class="card-img-top" alt="sample of PaMen">
+                <div class="card-body">
+                  <h5 class="card-title">PacMen</h5>
+                  <p class="card-text">This project features JavaScript. It is a PacMen generator that creates characters at random positions. Each PacMan will move randomly and will 
+                    bounce off of the edges of your screen. Use the buttons below to navigate to the repository or to check the deployment of this project.</p>
+                    <a href="https://github.com/dfgav1r1a/PacMen" target="_blank" class="btn btn-primary">GitHub</a>
+                  <a href="https://dfgav1r1a.github.io/PacMen" target="_blank" class="btn btn-primary">Deploy</a>
+                </div>
               </div>
             </div>
-          </div>
-          <div class="tab-content" id="TabContent">
-            <div class="tab-pane fade" id="eyes" role="tabpanel" aria-labelledby="eyes-tab">
-              <div class="card-body">
-                <img src="..." class="card-img-top" alt="Image of PacMan Exercise">
-                <h5 class="card-title">Eyes Exercise</h5>
-                <p class="card-text">Check these eyes out! Click <a href="#">here</a> to go to the repository or click below to go to the deployment page. </p>
-                <a href="#" class="btn btn-primary">Play</a>
+            <div class="col">
+              <div class="card text-center h-100 w-100">
+                <img src="./images/eyes-sample.png" class="card-img-top" alt="Sample of eyes">
+                <div class="card-body">
+                    <h5 class="card-title">Eyes: Stalker Edition</h5>
+                    <p class="card-text">This project features CSS and JavaScript. It is an eye generator that will follow your mouse where ever it goes.
+                      Use the buttons below to navigate to the repository or to check the deployment of this project.</p>
+                      <a href="https://github.com/dfgav1r1a/eyes-factory" target="_blank" class="btn btn-primary">GitHub</a>
+                    <a href="https://dfgav1r1a.github.io/eyes-factory" target="_blank" class="btn btn-primary">Deploy</a>
+                </div>
               </div>
             </div>
-          </div>
-            <div class="tab-content" id="TabContent">
-              <div class="tab-pane fade" id="contact" role="tabpanel" aria-labelledby="bus-tab">
-                <img src="..." class="card-img-top" alt="Image of PacMan Exercise">
-                <h5 class="card-title">Eyes Exercise</h5>
-                <p class="card-text">Check these eyes out! Click <a href="#">here</a> to go to the repository or click below to go to the deployment page. </p>
-                <a href="#" class="btn btn-primary">Play</a>
-              </div>        
+            <div class="col">
+              <div class="card text-center h-100 w-100">
+                <img src="./images/bus-tracker.png" class="card-img-top" alt="Sample of Bus Tracker">
+                <div class="card-body">
+                  <h5 class="card-title">Real Time Bus Tracker</h5>
+                  <p class="card-text">This project features the usage of JavaScript and the MapBox API. This simple tracker will follow a random route from the bus system
+                      in Boston, Massachussets. Make sure to wait a few seconds to see the marker being placed at a different position. Use the buttons below to navigate to the repository or to check the deployment of this project.
+                  </p>
+                  <a href="https://github.com/dfgav1r1a/bustracker" target="_blank" class="btn btn-primary">GitHub</a>
+                    <a href="https://dfgav1r1a.github.io/bustracker/" target="_blank" class="btn btn-primary">Deploy</a>
+                </div>
+              </div>
             </div>
-        </div>
-  
+            
+          </div>
       </div>
       
   <!--footer-->
